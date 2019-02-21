@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity
 
 //        result.setText(null);
 
-        result.setVisibility(View.INVISIBLE);
+        resut.setVisibility(View.INVISIBLE);
 
         btnCalc.setOnClickListener(new View.OnClickListener()
         {
@@ -41,8 +41,8 @@ public class MainActivity extends AppCompatActivity
                 int b = Integer.parseInt(etTwo.getText().toString().trim());
                 /*Toast.makeText(MainActivity.this, a+b + "",
                         Toast.LENGTH_SHORT).show();*/
-                result.setVisibility(View.VISIBLE);
-                result.setText(a+b+"");
+                resut.setVisibility(View.VISIBLE);
+                resut.setText(a+b+"");
 
             }
         });
