@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity
 {
     EditText etOne, etTwo;
     Button btnCalc;
-    TextView result;
+    TextView resut;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity
 
         btnCalc = findViewById(R.id.button1);
 
-        result = findViewById(R.id.textView);
+        resut = findViewById(R.id.textView);
 
 //        result.setText(null);
 
